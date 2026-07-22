@@ -38,11 +38,12 @@ return res.json({message:"Database Error"});
 
 res.json({message:"User Saved Successfully"});
 
-});
 
 });
 
-app.listen(3032,()=>{
+});
+
+app.listen(3033,()=>{
 
 console.log("Backend Running");
 
