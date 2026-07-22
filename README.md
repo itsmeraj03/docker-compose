@@ -7,7 +7,7 @@
 6. Docker Compose deploys the application.
 7. Application becomes available for users.
 
-# Pre-Requirements
+# Pre-Requirements in server
 -> Docker
 -> Docker Compose
 -> Jenkins
@@ -22,7 +22,7 @@
 4. I push to GitHub its automatically get and change the changes.
   
 # Jenkins Pipeline
-The Jenkins Pipeline Perform:\
+The Jenkins Pipeline Perform:
 1. Source code checkout.
 2. Docker image build.
 3. Docker image push to Docker Hub.
