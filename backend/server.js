@@ -25,11 +25,10 @@ app.post("/users",(req,res)=>{
 const name=req.body.name;
 
 db.query(
-"INSERT INTO users(name) VALUES(?)",
-[name],
-(err)=>{
+"INSERT INTO users(name) VALUES(?)",[name],(err)=>{
 
-if(err){
+if(err){{
+
 
 return res.json({message:"Database Error"});
 }
